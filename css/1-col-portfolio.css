@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin-top: 1rem;
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer ul {
+  display: grid;
+  grid-gap: 20px;
+  padding-top: 20px;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  /* text-transform: uppercase; */
+  border-radius: 0;
+}
+
+.btn-default {
+  color: var(--light);
+  border: 1px solid var(--light);
+  background-color: transparent;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: black;
+  border: 1px solid #42DCA3;
+  outline: none;
+  background-color: #42DCA3;
+}
+
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+/* #one.fixed {
+  left: 0;
+  padding-left:0px;
+  padding-right:130px;
+    
+}
+
+.nav-item {
+    padding-left:130px;
+    padding-right:130px;
+    
+  } */
+
+
